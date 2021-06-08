@@ -1,0 +1,7 @@
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+
+API_KEY = ""
+PLAYLIST_ID = ""
+
+REDIRECT_URI = ""
