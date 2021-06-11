@@ -5,6 +5,7 @@ A small Python script that detects if you add a new song to a certain YouTube pl
 1) Install All Dependencies.    
 `pip install -r requirements.txt`
 2) Collect the youtube playlist id that's in the URL and add it to the secret.py.    
+Example:     
 `https://m.youtube.com/playlist?list=PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj`.   
 PLAYLIST_ID = "PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj"
 3) Get a Google API key explained [here](https://www.google.com/url?sa=t&source=web&rct=j&url=https://developers.google.com/youtube/v3/getting-started&ved=2ahUKEwjluLW-sY7xAhW2AWMBHU-JCS0QFjAAegQIEBAC&usg=AOvVaw3ueucBVp-4rmSh_si8y-vP&cshid=1623373487113) and add it to the secret.py.
