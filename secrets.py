@@ -4,4 +4,5 @@ CLIENT_SECRET = ""
 API_KEY = ""
 PLAYLIST_ID = ""
 
-REDIRECT_URI = ""
+PLAYLIST_NAME = "YouTube"
+REDIRECT_URI = "http://localhost/"
