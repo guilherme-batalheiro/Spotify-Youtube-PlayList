@@ -7,7 +7,7 @@
         spotipy
 """
 
-from const import *
+from secrets import *
 import re
 import datetime
 
@@ -36,10 +36,10 @@ while(1):
     # Gets the playlists from the Spotify API.
     playlistsSpotify = spotify.current_user_playlists(limit = 50, offset = 0)["items"]
     
-    # Check if the "YouTube" playlist already exists if it doesn't make one.
+    # Check if the YouTube playlist already exists if it doesn't make one.
     found = 0
     for playlistSpotify in playlistsSpotify:
-        if(playlistSpotify["name"] == "YouTube"):
+        if(playlistSpotify["name"] == PLAYLIST_NAME):
             playListSpotifyYouTubeId = playlistSpotify["id"]
             found = 1
             break
