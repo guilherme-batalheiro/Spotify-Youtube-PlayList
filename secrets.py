@@ -5,4 +5,4 @@ API_KEY = ""
 PLAYLIST_ID = ""
 
 PLAYLIST_NAME = "YouTube"
-REDIRECT_URI = "http://localhost/"
+REDIRECT_URI = "https://localhost:8080"
