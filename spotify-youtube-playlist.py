@@ -25,7 +25,7 @@ spotify = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id = CLIENT_ID,
 
 notFound = []
 
-while(1):
+while(True):
     now = datetime.datetime.now()
     currentTimeStr = now.strftime("[%m-%d-%Y %H:%M:%S]")
 
