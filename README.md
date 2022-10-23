@@ -8,7 +8,7 @@ A small Python script that detects if you add a new song to a certain YouTube pl
 Example:     
 `https://m.youtube.com/playlist?list=PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj`.   
 PLAYLIST_ID = "PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj"
-3) Get the Spotify keys explained [here](https://www.google.com/url?sa=t&source=web&rct=j&url=https://developers.google.com/youtube/v3/getting-started&ved=2ahUKEwjluLW-sY7xAhW2AWMBHU-JCS0QFjAAegQIEBAC&usg=AOvVaw3ueucBVp-4rmSh_si8y-vP&cshid=1623373487113) and add it to the secret.py.
+3) Get the Google API key explained [here](https://www.google.com/url?sa=t&source=web&rct=j&url=https://developers.google.com/youtube/v3/getting-started&ved=2ahUKEwjluLW-sY7xAhW2AWMBHU-JCS0QFjAAegQIEBAC&usg=AOvVaw3ueucBVp-4rmSh_si8y-vP&cshid=1623373487113) and add it to the secret.py.
 4) Create a simple server-side application [here](https://developer.spotify.com/documentation/web-api/quick-start/) and get the Spotify client id and the client secret and add it to the secret.py.    
 
 Note: You can change the Spotify playlist name ("YouTube" by default) and the redirect URL ("htt<span>p://localhost/" by default).
